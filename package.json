@@ -1,12 +1,12 @@
 {
-  "name": "template-ts",
+  "name": "@ui-elements/web",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "lint": "eslint . --ext .ts,.tsx",
-    "lint:ci": "pnpm run lint --cache --cache-strategy content --cache-location ~/.cache/eslint/template-ts",
+    "lint:ci": "pnpm run lint --cache --cache-strategy content --cache-location ~/.cache/eslint/ui-elements-web",
     "build": "tsc --project tsconfig.build.json",
     "test": "vitest run",
     "coverage": "vitest run --coverage",
