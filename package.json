@@ -3,14 +3,19 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
+    "prepare": "husky",
+    "dev": "storybook dev -p 6006",
     "lint": "eslint . --ext .ts,.tsx",
     "lint:ci": "pnpm run lint --cache --cache-strategy content --cache-location ~/.cache/eslint/ui-elements-web",
     "build": "tsc --project tsconfig.build.json",
+    "build:storybook": "storybook build",
     "test": "vitest run",
-    "coverage": "vitest run --coverage",
-    "prepare": "husky"
+    "coverage": "vitest run --coverage"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
@@ -20,14 +25,25 @@
     "*.{js,json,md,yml}": "prettier --write"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.17",
+    "@storybook/addon-links": "^7.6.17",
+    "@storybook/blocks": "^7.6.17",
+    "@storybook/web-components": "^7.6.17",
+    "@storybook/web-components-vite": "^7.6.17",
     "@typescript-eslint/eslint-plugin": "^6.19.1",
     "@typescript-eslint/parser": "^6.19.1",
     "@vitest/coverage-v8": "^1.2.2",
     "eslint": "^8.56.0",
-    "eslint-config-prettier": "9.1.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-lit": "^1.11.0",
+    "eslint-plugin-storybook": "^0.8.0",
     "husky": "^9.0.5",
     "lint-staged": "^15.2.0",
+    "lit": "^3.1.2",
     "prettier": "^3.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.6.17",
     "typescript": "^5.3.3",
     "vite": "^5.0.12",
     "vitest": "^1.2.2"
