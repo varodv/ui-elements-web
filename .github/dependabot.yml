@@ -5,8 +5,12 @@ updates:
     directory: /
     schedule:
       interval: weekly
+    labels:
+      - build
 
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: weekly
+    labels:
+      - build
