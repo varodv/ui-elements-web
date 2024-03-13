@@ -5,8 +5,26 @@ export interface UiInputProps<ValueType = string> extends UiElementProps {
   readonly?: boolean;
   disabled?: boolean;
   autofocus?: boolean;
-  autocomplete?: string;
+  list?: string;
 
   form?: string;
   name?: string;
+}
+
+export interface Autocomplete {
+  autocomplete?: string;
+}
+
+export interface Rangeable<Type = number> {
+  min?: Type;
+  max?: Type;
+  step?: number;
+}
+
+export interface Required {
+  required?: boolean;
+}
+
+export interface Patternable {
+  pattern?: string;
 }

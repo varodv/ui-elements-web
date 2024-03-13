@@ -1,10 +1,14 @@
-import type { UiInputProps } from '../ui-input';
+import type {
+  Autocomplete,
+  Patternable,
+  Rangeable,
+  Required,
+  UiInputProps,
+} from '../ui-input';
 
-export interface UiDateInputProps extends UiInputProps {
-  min?: string;
-  max?: string;
-  step?: number;
-
-  required?: boolean;
-  pattern?: string;
-}
+export interface UiDateInputProps
+  extends UiInputProps<Date | string>,
+    Rangeable<Date | string>,
+    Autocomplete,
+    Required,
+    Patternable {}
