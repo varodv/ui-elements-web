@@ -15,7 +15,7 @@ export interface Autocomplete {
   autocomplete?: string;
 }
 
-export interface Rangeable<Type = number> {
+export interface Rangeable<Type> {
   min?: Type;
   max?: Type;
   step?: number;

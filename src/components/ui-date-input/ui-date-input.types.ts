@@ -7,8 +7,8 @@ import type {
 } from '../ui-input';
 
 export interface UiDateInputProps
-  extends UiInputProps<Date | string>,
-    Rangeable<Date | string>,
+  extends UiInputProps,
+    Rangeable<string>,
     Autocomplete,
     Required,
     Patternable {}
