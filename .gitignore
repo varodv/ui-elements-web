@@ -4,10 +4,12 @@ node_modules
 
 *-debug.log*
 yarn-error.log*
+*storybook.log
 
 .eslintcache
 
 dist
+storybook-static
 
 *.tgz
 
