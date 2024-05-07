@@ -7,10 +7,10 @@ export default defineConfig({
     coverage: {
       exclude: [
         ...coverageConfigDefaults.exclude,
+        'src/**/index.ts',
+        'src/**/*.types.ts',
         '**/*.stories.ts',
         'storybook-static',
-        'src/index.ts',
-        'src/*/index.ts',
       ],
     },
   },
