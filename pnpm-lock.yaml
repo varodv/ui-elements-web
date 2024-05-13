@@ -42,8 +42,8 @@ devDependencies:
     specifier: ^9.1.0
     version: 9.1.0(eslint@8.57.0)
   eslint-plugin-lit:
-    specifier: ^1.11.0
-    version: 1.11.0(eslint@8.57.0)
+    specifier: ^1.12.0
+    version: 1.12.0(eslint@8.57.0)
   eslint-plugin-storybook:
     specifier: ^0.8.0
     version: 0.8.0(eslint@8.57.0)(typescript@5.4.5)
@@ -4214,8 +4214,8 @@ packages:
       eslint: 8.57.0
     dev: true
 
-  /eslint-plugin-lit@1.11.0(eslint@8.57.0):
-    resolution: {integrity: sha512-jVqy2juQTAtOzj1ILf+ZW5GpDobXlSw0kvpP2zu2r8ZbW7KISt7ikj1Gw9DhNeirEU1UlSJR0VIWpdr4lzjayw==}
+  /eslint-plugin-lit@1.12.0(eslint@8.57.0):
+    resolution: {integrity: sha512-wADj+b6ZksWs1qqASYBYzi4U6k0Tvhtp4GJupveZ7Z5IfVHMixxFueSSwIl/4ksov4jsahWbyHnhOpvJ5Z8M7w==}
     engines: {node: '>= 12'}
     peerDependencies:
       eslint: '>= 5'
