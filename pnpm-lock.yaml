@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@chromatic-com/storybook':
-    specifier: ^1.3.4
-    version: 1.3.4(react@18.3.1)
+    specifier: ^1.5.0
+    version: 1.5.0(react@18.3.1)
   '@storybook/addon-essentials':
     specifier: ^8.0.10
     version: 8.0.10(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)
@@ -1371,11 +1371,11 @@ packages:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
 
-  /@chromatic-com/storybook@1.3.4(react@18.3.1):
-    resolution: {integrity: sha512-ZfQDc5Zg5YSC9cWdBc9QpMF0vgvknwKTB9xBE0NhCJWjGxG9mz9yLzQTzzliYulPtWgcQ+8cE+apDljYK+fWdQ==}
+  /@chromatic-com/storybook@1.5.0(react@18.3.1):
+    resolution: {integrity: sha512-LkLKv7SWu/6kGep1ft2HA1T/cm14wU0zoW71gE4cZRcgUoRQJtyhITFTLHrjqAxz6bVqNgqzQtd5oBZ2nK3L3g==}
     engines: {node: '>=16.0.0', yarn: '>=1.22.18'}
     dependencies:
-      chromatic: 11.3.1
+      chromatic: 11.5.0
       filesize: 10.1.1
       jsonfile: 6.1.0
       react-confetti: 6.1.0(react@18.3.1)
@@ -3618,8 +3618,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /chromatic@11.3.1:
-    resolution: {integrity: sha512-ATAfVEn84NARTIxdiGQ8QywWg3BPM/+6stVD1stSKCO7lQLEKFyGcI+PhBBDt+ZgNcgsEsg5fo3E2dQNt01W6g==}
+  /chromatic@11.5.0:
+    resolution: {integrity: sha512-mugneDXjkLIrAR+884EXz3lF443nG70XqzCj+6D95h9zFSq5pAEAUOeMeh5V2hUAh8qVar4+US2lsacEYugPnw==}
     hasBin: true
     peerDependencies:
       '@chromatic-com/cypress': ^0.*.* || ^1.0.0
